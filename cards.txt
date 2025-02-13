@@ -50,3 +50,11 @@ spade, five, 5,5s.gif
 spade, four, 4,4s.gif
 spade, three, 3,3s.gif
 spade, two, 2,2s.gif
+Hearts,Ace,14,A♥
+Hearts,King,13,K♥
+Hearts,Queen,12,Q♥
+Hearts,Jack,11,J♥
+Spades,Ace,14,A♠
+Spades,King,13,K♠
+Spades,Queen,12,Q♠
+Spades,Jack,11,J♠
