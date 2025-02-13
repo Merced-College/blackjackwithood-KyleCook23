@@ -1,4 +1,4 @@
-package cardGame;
+/*package cardGame;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -80,4 +80,4 @@ public class CardGame {
 		}//end outer for
 		return false;
 	}
-}//end class
+}//end class*/
