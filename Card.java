@@ -36,7 +36,7 @@ public class Card {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Card card = (Card) obj;
-        return value == card.value && name.trim().equalsIgnoreCase(card.name.trim()) && suit.trim().equalsIgnoreCase(card.suit.trim());
+        return value == card.value && name.trim().equalsIgnoreCase(card.name.trim());
     }
     //returns the card as a string
     @Override
