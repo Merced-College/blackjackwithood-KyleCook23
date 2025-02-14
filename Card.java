@@ -31,13 +31,15 @@ public class Card {
         return picture;
     }
     //checks if the card is a face card
+    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Card card = (Card) obj;
-        return value == card.value && name.equals(card.name) && suit.equals(card.suit);
+        return value == card.value && name.trim().equalsIgnoreCase(card.name.trim()) && suit.trim().equalsIgnoreCase(card.suit.trim());
     }
     //returns the card as a string
+    @Override
     public String toString() {
         return suit + ", " + name + ", " + value + ", " + picture;
     }
